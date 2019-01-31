@@ -11,7 +11,8 @@
  * @package         Blackbird_CatalogDefaultQty
  * @copyright       Copyright (c) Blackbird (https://black.bird.eu)
  * @author          Blackbird Team
- * @license         https://store.bird.eu/license/
+ * @license         MIT
+ * @support         https://github.com/blackbird-agency/magento-2-catalog-default-qty/issues/new
  */
 
 \Magento\Framework\Component\ComponentRegistrar::register(
