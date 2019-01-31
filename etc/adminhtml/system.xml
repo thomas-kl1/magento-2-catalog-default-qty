@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Blackbird Catalog Default Qty Module
+ *
+ * NOTICE OF LICENSE
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to contact@bird.eu so we can send you a copy immediately.
+ *
+ * @category        Blackbird
+ * @package         Blackbird_CatalogDefaultQty
+ * @copyright       Copyright (c) Blackbird (https://black.bird.eu)
+ * @author          Blackbird Team
+ * @license         https://store.bird.eu/license/
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="cataloginventory">
+            <group id="options">
+                <field id="customize_debug_mode" translate="label comment" type="select" showInDefault="1" showInWebsite="1" showInStore="0" sortOrder="100">
+                    <label>Products Default Qty on Storefront</label>
+                    <comment>The default quantity to apply to the product on the storefront.</comment>
+                    <frontend_model>Blackbird\CatalogDefaultQty\Block\Adminhtml\Config\Form\Field\DefaultQtyMap</frontend_model>
+                    <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                    <config_path>cataloginventory/options/default_qty</config_path>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

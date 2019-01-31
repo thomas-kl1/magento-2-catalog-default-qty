@@ -1,0 +1,57 @@
+{
+    "name": "blackbird/module-catalog-default-qty",
+    "description": "This module allows you to set default qty by set of product types.",
+    "keywords": [
+        "php",
+        "magento",
+        "magento2",
+        "catalog",
+        "product",
+        "inventory",
+        "stock"
+    ],
+    "require": {
+        "magento/product-community-edition": "*",
+        "magento/framework": "*",
+        "magento/module-catalog": "*",
+        "magento/module-catalog-inventory": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "suggest": {
+        "blackbird/module-dynamic-price": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "homepage": "https://store.bird.eu/",
+    "authors": [
+        {
+            "name": "Thomas Klein",
+            "email": "thomas@bird.eu",
+            "homepage": "https://www.linkedin.com/in/thomas-klein/",
+            "role": "lead"
+        },
+        {
+            "name": "Blackbird Team",
+            "email": "hello@bird.eu",
+            "homepage": "https://black.bird.eu/",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/blackbird-agency/",
+        "issues": "http://help.bird.eu/"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Blackbird\\CatalogDefaultQty\\": ""
+        }
+    }
+}
