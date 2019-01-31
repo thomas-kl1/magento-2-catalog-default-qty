@@ -50,13 +50,15 @@ final class ProductPlugin
      */
     public function afterGetPreconfiguredValues(Product $subject, DataObject $result): DataObject
     {
-        $result->setData(
-            'qty',
-            $this->config->getDefaultQtyByProductType(
-                $subject->getTypeId(),
-                $subject->getStore()->getWebsite()->getCode()
-            )
-        );
+        if (!$result->hasData('qty')) {
+            $result->setData(
+                'qty',
+                $this->config->getDefaultQtyByProductType(
+                    $subject->getTypeId(),
+                    $subject->getStore()->getWebsite()->getCode()
+                )
+            );
+        }
 
         return $result;
     }
