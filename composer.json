@@ -11,7 +11,6 @@
         "stock"
     ],
     "require": {
-        "magento/product-community-edition": "*",
         "magento/framework": "*",
         "magento/module-catalog": "*",
         "magento/module-catalog-inventory": "*"
@@ -20,14 +19,13 @@
         "roave/security-advisories": "dev-master"
     },
     "suggest": {
-        "blackbird/module-dynamic-price": "*"
     },
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
-        "proprietary"
+        "MIT"
     ],
-    "homepage": "https://store.bird.eu/",
+    "homepage": "https://github.com/blackbird-agency",
     "authors": [
         {
             "name": "Thomas Klein",
@@ -43,8 +41,8 @@
         }
     ],
     "support": {
-        "source": "https://github.com/blackbird-agency/",
-        "issues": "http://help.bird.eu/"
+        "source": "https://github.com/blackbird-agency/magento-2-catalog-default-qty",
+        "issues": "https://github.com/blackbird-agency/magento-2-catalog-default-qty/issues"
     },
     "autoload": {
         "files": [
