@@ -54,7 +54,7 @@ For further information, contact us:
 
 ## Authors
 
-- **Thomas Klein** - *Maintainer* - [It's me!](https://github.com/thomas-blackbird)
+- **Thomas Klein** - *Maintainer* - [It's me!](https://github.com/thomas-kl1)
 - **Blackbird Team** - *Contributor* - [They're awesome!](https://github.com/blackbird-agency)
 
 ## Licence
